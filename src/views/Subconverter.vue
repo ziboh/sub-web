@@ -296,7 +296,7 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "https://sub.zzbbhh.sbs/sub?" }],
         remoteConfig: [
           {
             label: "universal",
@@ -316,6 +316,11 @@ export default {
           {
             label: "customized",
             options: [
+              {
+                label: "MyConf",
+                value:
+                  "https://raw.githubusercontent.com/ziboh/config_online/master/openclash/Zibo_Online_Full.ini"
+              },
               {
                 label: "Maying",
                 value:
